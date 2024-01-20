@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-same-complex128",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Test if two arguments are both double-precision complex floating-point numbers and have the same value.",
   "license": "Apache-2.0",
   "author": {
