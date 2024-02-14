@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSameComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-complex128@deno/mod.js';
+import isSameComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-complex128@v0.2.0-deno/mod.js';
 ```
 
 #### isSameComplex128( v1, v2 )
@@ -80,7 +80,7 @@ var bool = isSameComplex128( x, y );
 
 ```javascript
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@deno/mod.js';
-import isSameComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-complex128@deno/mod.js';
+import isSameComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-complex128@v0.2.0-deno/mod.js';
 
 var x = new Complex128( 1.0, 2.0 );
 var y = new Complex128( 1.0, 2.0 );
