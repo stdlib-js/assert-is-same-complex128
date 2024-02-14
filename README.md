@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSameComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-complex128@esm/index.mjs';
+import isSameComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-complex128@v0.2.0-esm/index.mjs';
 ```
 
 #### isSameComplex128( v1, v2 )
@@ -85,7 +85,7 @@ var bool = isSameComplex128( x, y );
 <script type="module">
 
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@esm/index.mjs';
-import isSameComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-complex128@esm/index.mjs';
+import isSameComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-complex128@v0.2.0-esm/index.mjs';
 
 var x = new Complex128( 1.0, 2.0 );
 var y = new Complex128( 1.0, 2.0 );
