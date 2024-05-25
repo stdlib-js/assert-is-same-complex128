@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Test if two arguments are both [double-precision complex floating-point numbers][@stdlib/complex/float64] and have the [same value][@stdlib/assert/is-same-value].
+> Test if two arguments are both [double-precision complex floating-point numbers][@stdlib/complex/float64/ctor] and have the [same value][@stdlib/assert/is-same-value].
 
 <section class="installation">
 
@@ -65,7 +65,7 @@ var isSameComplex128 = require( '@stdlib/assert-is-same-complex128' );
 
 #### isSameComplex128( v1, v2 )
 
-Tests if two arguments are both [double-precision complex floating-point numbers][@stdlib/complex/float64] and have the [same value][@stdlib/assert/is-same-value].
+Tests if two arguments are both [double-precision complex floating-point numbers][@stdlib/complex/float64/ctor] and have the [same value][@stdlib/assert/is-same-value].
 
 ```javascript
 var Complex128 = require( '@stdlib/complex-float64-ctor' );
@@ -208,7 +208,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-same-complex128/main/LICENSE
 
-[@stdlib/complex/float64]: https://github.com/stdlib-js/complex-float64
+[@stdlib/complex/float64/ctor]: https://github.com/stdlib-js/complex-float64
 
 [@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert-is-same-value
 
