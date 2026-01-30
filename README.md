@@ -35,14 +35,32 @@ limitations under the License.
 
 > Test if two arguments are both [double-precision complex floating-point numbers][@stdlib/complex/float64/ctor] and have the [same value][@stdlib/assert/is-same-value].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-same-complex128
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import isSameComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-complex128@deno/mod.js';
+var isSameComplex128 = require( '@stdlib/assert-is-same-complex128' );
 ```
 
 #### isSameComplex128( v1, v2 )
@@ -50,7 +68,7 @@ import isSameComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sa
 Tests if two arguments are both [double-precision complex floating-point numbers][@stdlib/complex/float64/ctor] and have the [same value][@stdlib/assert/is-same-value].
 
 ```javascript
-import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@deno/mod.js';
+var Complex128 = require( '@stdlib/complex-float64-ctor' );
 
 var x = new Complex128( 1.0, 2.0 );
 var y = new Complex128( 1.0, 2.0 );
@@ -79,8 +97,8 @@ var bool = isSameComplex128( x, y );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@deno/mod.js';
-import isSameComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-complex128@deno/mod.js';
+var Complex128 = require( '@stdlib/complex-float64-ctor' );
+var isSameComplex128 = require( '@stdlib/assert-is-same-complex128' );
 
 var x = new Complex128( 1.0, 2.0 );
 var y = new Complex128( 1.0, 2.0 );
@@ -127,7 +145,7 @@ out = isSameComplex128( x, y );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -144,7 +162,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -190,15 +208,15 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-same-complex128/main/LICENSE
 
-[@stdlib/complex/float64/ctor]: https://github.com/stdlib-js/complex-float64-ctor/tree/deno
+[@stdlib/complex/float64/ctor]: https://github.com/stdlib-js/complex-float64-ctor
 
-[@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert-is-same-value/tree/deno
+[@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert-is-same-value
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-complex128]: https://github.com/stdlib-js/assert-is-complex128/tree/deno
+[@stdlib/assert/is-complex128]: https://github.com/stdlib-js/assert-is-complex128
 
-[@stdlib/assert/is-same-complex64]: https://github.com/stdlib-js/assert-is-same-complex64/tree/deno
+[@stdlib/assert/is-same-complex64]: https://github.com/stdlib-js/assert-is-same-complex64
 
 <!-- </related-links> -->
 
